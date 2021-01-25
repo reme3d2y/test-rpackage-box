@@ -159,7 +159,7 @@ export type InputProps = Omit<
 export const Input = React.forwardRef<HTMLInputElement, InputProps>(
     (
         {
-            size = 's',
+            size = 'm',
             type = 'text',
             block = false,
             bottomAddons,
