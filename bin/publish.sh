@@ -3,6 +3,9 @@
 # выхожу, если одна из команд завершилась неудачно
 set -e
 
+git fetch --prune --unshallow
+git fetch --tags
+
 # поднимаю версию во всех подпакетах
 lerna version --no-push --no-commit-hooks
 # публикую все подпакеты
