@@ -181,7 +181,7 @@ const esm = {
     ],
 };
 
-const rootDir = `../root/${currentComponentName}`;
+const rootDir = `../../dist/${currentComponentName}`;
 
 const root = {
     input: ['dist/**/*.js'],
@@ -196,7 +196,7 @@ const root = {
                 { src: ['dist/**/*', '!**/*.js'], dest: rootDir },
                 {
                     src: 'package.json',
-                    dest: `../root/${currentComponentName}`,
+                    dest: `../../dist/${currentComponentName}`,
                     transform: () => createPackageJson('./esm/index.js'),
                 },
             ],

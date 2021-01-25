@@ -28,14 +28,14 @@ lerna exec \
 lerna exec --scope test-rpackage-box-themes -- node $(pwd)/bin/build-themes.js
 
 # копирую собранные css пакеты в корневой пакет
-copy_to_root="mkdir -p ../root/\${PWD##*/} && cp -r dist/ ../root/\${PWD##*/}"
+copy_to_root="mkdir -p ../../dist/\${PWD##*/} && cp -r dist/ ../../dist/\${PWD##*/}"
 lerna exec \
     --scope test-rpackage-box-vars \
     --scope test-rpackage-box-themes \
     -- $copy_to_root
 
 # копирую package.json в сборку корневого пакета
-cp package.json packages/root/package.json
+cp package.json dist/package.json
 
 # делаю корневой пакет публичным
-yarn json -f packages/root/package.json -I -e "delete this.private" -e "delete this.workspaces"
+yarn json -f dist/package.json -I -e "delete this.private" -e "delete this.workspaces"
