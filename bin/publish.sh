@@ -3,7 +3,7 @@
 # выхожу, если одна из команд завершилась неудачно
 set -e
 
-git fetch --prune --unshallow
+git fetch --prune
 git fetch --tags
 
 # поднимаю версию во всех подпакетах
