@@ -13,7 +13,7 @@ export const Amount: React.FC<AmountProps> = ({
     value,
     minority,
     currency,
-    view = 'withZeroMinorPart',
+    view = 'default',
     className,
     dataTestId,
 }) => {
