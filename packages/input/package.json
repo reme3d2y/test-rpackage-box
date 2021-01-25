@@ -1,0 +1,26 @@
+{
+    "name": "test-rpackage-box-input",
+    "version": "5.0.0",
+    "description": "",
+    "keywords": [],
+    "license": "ISC",
+    "main": "dist/index.js",
+    "module": "./dist/esm/index.js",
+    "files": [
+        "dist"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "react": "^16.9.0"
+    },
+    "dependencies": {
+        "test-rpackage-box-button": "^1.11.0",
+        "test-rpackage-box-form-control": "^5.0.0",
+        "@alfalab/hooks": "^1.0.0",
+        "@alfalab/icons-glyph": "^1.26.0",
+        "classnames": "^2.2.6",
+        "react-merge-refs": "^1.1.0"
+    }
+}

@@ -1,0 +1,28 @@
+@import '../../../../vars/src/index.css';
+
+@define-mixin button-mobile {
+    /* core vars */
+    --color-light-bg-secondary-inverted: #1c1c1e;
+    --color-light-bg-primary-inverted: #000;
+    --color-light-text-tertiary-inverted: #464649;
+    --color-light-bg-secondary: #f3f4f5;
+    --color-light-bg-tertiary: #e9e9eb;
+    --color-light-text-disabled: #dcdcdd;
+
+    /* theme */
+    --button-border-radius: 12px;
+
+    /* primary */
+    --button-primary-base-bg-color: var(--color-light-bg-secondary-inverted);
+    --button-primary-hover-bg-color: var(--color-light-bg-secondary-inverted);
+    --button-primary-active-bg-color: var(--color-light-bg-primary-inverted);
+    --button-primary-disabled-bg-color: var(--color-light-bg-secondary-inverted);
+    --button-primary-disabled-color: var(--color-light-text-tertiary-inverted);
+
+    /* secondary */
+    --button-secondary-base-bg-color: var(--color-light-bg-secondary);
+    --button-secondary-hover-bg-color: var(--color-light-bg-secondary);
+    --button-secondary-active-bg-color: var(--color-light-bg-tertiary);
+    --button-secondary-disabled-bg-color: var(--color-light-bg-secondary);
+    --button-secondary-disabled-color: var(--color-light-text-disabled);
+}

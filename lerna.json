@@ -1,0 +1,17 @@
+{
+    "packages": ["packages/*"],
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "version": "independent",
+    "command": {
+        "version": {
+            "message": "chore: publish",
+            "ignoreChanges": [
+                "*.stories.*",
+                "**/__snapshots__/**",
+                "*.test.*"
+            ]
+
+        }
+    }
+}

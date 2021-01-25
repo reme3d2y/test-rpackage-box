@@ -1,0 +1,11 @@
+{
+    "name": "test-rpackage-box-themes",
+    "version": "2.10.0",
+    "description": "",
+    "keywords": [],
+    "license": "ISC",
+    "publishConfig": {
+        "access": "public",
+        "directory": "dist"
+    }
+}

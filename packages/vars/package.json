@@ -1,0 +1,12 @@
+{
+    "name": "test-rpackage-box-vars",
+    "version": "2.2.0",
+    "description": "",
+    "keywords": [],
+    "license": "ISC",
+    "style": "index.css",
+    "publishConfig": {
+        "access": "public",
+        "directory": "dist"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        "target": "ES5",
+        "module": "commonjs",
+        "jsx": "react",
+        "rootDir": ".",
+        "outDir": "dist",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "typeRoots": ["./typings", "./node_modules/@types"],
+        "composite": true,
+        "declaration": true,
+        "baseUrl": ".",
+        "paths": {
+            "test-rpackage-box-*": ["packages/*/src"]
+        }
+    },
+    "exclude": ["node_modules", "dist", "**/*.stories*", "**/*.test*"],
+    "include": ["./typings"]
+}
