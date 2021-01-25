@@ -33,6 +33,7 @@
         "postbuild": "yarn purgecss",
         "purgecss": "./bin/purgecss.sh",
         "semantic-release-lerna": "lerna exec --concurrency 5 -- yarn semantic-release -e semantic-release-monorepo --tag-format='${LERNA_PACKAGE_NAME}@\\${version}'",
+        "pub": "./bin/publish.sh",
         "pub:patch": "RELEASE_TYPE=\"patch\" ./bin/publish.sh",
         "pub:minor": "RELEASE_TYPE=\"minor\" ./bin/publish.sh",
         "pub:major": "RELEASE_TYPE=\"major\" ./bin/publish.sh"

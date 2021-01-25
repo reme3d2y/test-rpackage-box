@@ -33,6 +33,6 @@ jobs:
 
       - name: Publish separate packages
         run: |
-          sh bin/publish.sh
+          yarn pub
         env:
           GITHUB_TOKEN: ${{ secrets.PERMISSION_GITHUB_TOKEN }}
