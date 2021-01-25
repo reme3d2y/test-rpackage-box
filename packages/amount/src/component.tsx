@@ -6,14 +6,14 @@ import { AmountProps } from './types';
 import styles from './index.module.css';
 
 /**
- * Компонент для отображения суммы, согласно следующему гайдлайну1234:
+ * Компонент для отображения суммы, согласно следующему гайдлайну:
  * https://design.alfabank.ru/patterns/amount
  */
 export const Amount: React.FC<AmountProps> = ({
     value,
     minority,
     currency,
-    view = 'default',
+    view = 'withZeroMinorPart',
     className,
     dataTestId,
 }) => {
