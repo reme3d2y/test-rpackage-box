@@ -4,7 +4,6 @@
 set -e
 
 git checkout master
-git fetch --prune --unshallow
 git fetch --tags
 
 # поднимаю версию во всех подпакетах
