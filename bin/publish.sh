@@ -7,8 +7,8 @@ git checkout master
 git fetch --tags
 
 # поднимаю версию во всех подпакетах
-lerna version --no-push --no-commit-hooks
+lerna version --conventional-commits --no-commit-hooks --no-git-tag-version --yes
 # публикую все подпакеты
 lerna publish from-git
 # отправляю изменения на github
-git push --follow-tags
+# git push --follow-tags
