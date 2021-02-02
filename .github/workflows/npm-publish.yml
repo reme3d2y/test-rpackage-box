@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Build app
-        run: yarn && yarn build
+        run: yarn --pure-lockfile && yarn build
         env:
           BUILD_CONCURRENCY: 5
 
