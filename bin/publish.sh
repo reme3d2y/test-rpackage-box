@@ -7,7 +7,7 @@ git checkout master
 git fetch --tags
 
 # поднимаю версию во всех подпакетах
-lerna version --conventional-commits --no-commit-hooks --no-git-tag-version --yes
+lerna version --conventional-commits --no-commit-hooks --amend --yes
 # публикую все подпакеты
 lerna publish from-git
 # отправляю изменения на github
