@@ -27,6 +27,8 @@ jobs:
 
       - uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with:
+          name: 'dmitrsavk'
+          email: 'dmitrsavk@yandex.ru'
           token: '${{ secrets.PERMISSION_GITHUB_TOKEN }}'
         
       - name: Publish root package
