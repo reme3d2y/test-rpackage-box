@@ -25,6 +25,10 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
 
+      - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+        with:
+          token: '${{ secrets.PERMISSION_GITHUB_TOKEN }}'
+
       - name: Publish separate packages
         run: |
           yarn pub
