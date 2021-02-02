@@ -4,6 +4,7 @@
 set -e
 
 git checkout master
+git branch -u origin/master
 git fetch --tags
 
 # поднимаю версию во всех подпакетах
@@ -11,4 +12,4 @@ lerna version --conventional-commits --no-commit-hooks --amend --yes
 # публикую все подпакеты
 lerna publish from-git --yes
 # отправляю изменения на github
-git push --set-upstream origin master --follow-tags
+git push --follow-tags
