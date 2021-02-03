@@ -1,6 +1,6 @@
 {
     "name": "test-rpackage-box-button",
-    "version": "1.11.5",
+    "version": "1.11.6",
     "description": "",
     "gitHead": "f054fef20200664c65e2501ef1f916c555cdf05d",
     "keywords": [],
@@ -17,9 +17,9 @@
         "react": "^16.9.0"
     },
     "dependencies": {
-        "test-rpackage-box-loader": "^1.1.0",
         "@alfalab/hooks": "^1.0.0",
         "classnames": "^2.2.6",
-        "react-merge-refs": "^1.1.0"
+        "react-merge-refs": "^1.1.0",
+        "test-rpackage-box-loader": "^1.1.6"
     }
 }
