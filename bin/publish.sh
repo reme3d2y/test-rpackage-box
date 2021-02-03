@@ -13,7 +13,7 @@ git status
 # поднимаю версию во всех подпакетах
 lerna version --conventional-commits --no-commit-hooks --amend --yes
 # публикую все подпакеты
-lerna publish from-git --yes
+# lerna publish from-git --yes
 
 git status
 
