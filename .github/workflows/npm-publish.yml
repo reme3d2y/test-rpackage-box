@@ -15,10 +15,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: Build app
-        run: yarn --pure-lockfile && yarn build
-        env:
-          BUILD_CONCURRENCY: 5
+      # - name: Build app
+      #   run: yarn --pure-lockfile && yarn build
+      #   env:
+      #     BUILD_CONCURRENCY: 5
 
       - name: Set NPM Token Action
         uses: filipstefansson/set-npm-token-action@v1
