@@ -20,7 +20,7 @@
         "@alfalab/icons-glyph": "^1.26.0",
         "classnames": "^2.2.6",
         "react-merge-refs": "^1.1.0",
-        "test-rpackage-box-button": "^1.11.10",
-        "test-rpackage-box-form-control": "^5.0.10"
+        "test-rpackage-box-button": "^2.0.0",
+        "test-rpackage-box-form-control": "^6.0.0"
     }
 }

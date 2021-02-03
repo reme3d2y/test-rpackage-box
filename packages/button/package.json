@@ -20,6 +20,6 @@
         "@alfalab/hooks": "^1.0.0",
         "classnames": "^2.2.6",
         "react-merge-refs": "^1.1.0",
-        "test-rpackage-box-loader": "^1.1.10"
+        "test-rpackage-box-loader": "^2.0.0"
     }
 }
