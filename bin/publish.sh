@@ -7,6 +7,7 @@ git remote set-url origin https://reme3d2y:$GITHUB_TOKEN@github.com/reme3d2y/tes
 git checkout master
 git branch -u origin/master
 git fetch --tags
+git pull
 git remote -v
 # git config --global url."git@github.com:".insteadOf "https://github.com/"
 
