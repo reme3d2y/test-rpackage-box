@@ -9,13 +9,14 @@ git fetch --tags
 git status
 git branch
 git log -5
+git remote show origin
 
 
 # поднимаю версию во всех подпакетах
 lerna version --conventional-commits --no-commit-hooks --amend --yes
 
 # отправляю изменения на github
-# git push
+git push origin master
 
 # публикую все подпакеты
 # lerna publish from-git --yes
