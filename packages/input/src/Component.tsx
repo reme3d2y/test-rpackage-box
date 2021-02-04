@@ -261,8 +261,6 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
             [clearButtonVisible, focused, onClear, uncontrolled],
         );
 
-        console.log(1);
-
         const renderRightAddons = () => {
             const addonsVisible = clearButtonVisible || rightAddons || error || success;
 
