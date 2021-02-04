@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v2.2.0...v3.0.0) (2021-02-04)
+
+
+### Features
+
+* **input:** major changes ([#8](https://github.com/reme3d2y/test-rpackage-box/issues/8)) ([560a6c8](https://github.com/reme3d2y/test-rpackage-box/commit/560a6c845737528fd5c1dc271b0f406a9e13c585))
+
+
+### BREAKING CHANGES
+
+* **input:** delete console.log!
+
 # [2.2.0](https://github.com/reme3d2y/test-rpackage-box/compare/v2.1.0...v2.2.0) (2021-02-04)
 
 
