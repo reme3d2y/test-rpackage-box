@@ -30,8 +30,8 @@ jobs:
 
       - uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with:
-          name: 'reme3d2y'
-          email: 'reme3d2y@gmail.com'
+          name: 'semantic-release-bot'
+          email: 'semantic-release-bot@gmail.com'
           token: '${{ secrets.PERMISSION_GITHUB_TOKEN }}'
 
       - name: Publish root package
