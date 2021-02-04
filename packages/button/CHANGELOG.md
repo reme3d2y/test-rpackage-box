@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-button@2.0.4...test-rpackage-box-button@3.0.0) (2021-02-04)
+
+
+* Feat/5 (#9) ([3440833](https://github.com/reme3d2y/test-rpackage-box/commit/3440833bc4a9aaf8bfbfbe095a7909f868bcb01f)), closes [#9](https://github.com/reme3d2y/test-rpackage-box/issues/9)
+
+
+### BREAKING CHANGES
+
+* the breaking changes description
+
+* fix(button): delete extra space
+
+
+
+
+
 ## [2.0.4](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-button@2.0.3...test-rpackage-box-button@2.0.4) (2021-02-04)
 
 
