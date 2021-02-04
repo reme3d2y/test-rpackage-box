@@ -118,6 +118,7 @@ export const Button = React.forwardRef<HTMLAnchorElement | HTMLButtonElement, Bu
                 {rightAddons && <span className={styles.addons}>{rightAddons}</span>}
             </React.Fragment>
         );
+
         if (href) {
             return (
                 <a
