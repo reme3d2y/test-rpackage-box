@@ -1,3 +1,11 @@
+## [2.0.2](https://github.com/reme3d2y/test-rpackage-box/compare/v2.0.1...v2.0.2) (2021-02-04)
+
+
+### Bug Fixes
+
+* **button:** fix bug ([3bd8e96](https://github.com/reme3d2y/test-rpackage-box/commit/3bd8e96f3277a3c9098c9163883359e38665b271))
+* **button:** fix bug ([99b2c2b](https://github.com/reme3d2y/test-rpackage-box/commit/99b2c2bf8efd28a39c2fbeb36c1077aec3ea969e))
+
 ## [2.0.1](https://github.com/reme3d2y/test-rpackage-box/compare/v2.0.0...v2.0.1) (2021-02-04)
 
 
