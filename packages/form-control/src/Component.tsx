@@ -115,7 +115,6 @@ export const FormControl = React.forwardRef<HTMLDivElement, FormControlProps>(
         ref,
     ) => {
         const errorMessage = typeof error === 'string' ? error : '';
-
         return (
             <div
                 data-test-id={dataTestId}
