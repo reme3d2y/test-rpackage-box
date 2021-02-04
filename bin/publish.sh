@@ -13,5 +13,12 @@ lerna version --conventional-commits --no-commit-hooks --yes
 # отправляю изменения на github
 git push origin master
 
-# публикую все подпакеты
-lerna publish from-git --yes
+changed_packages=`lerna changed`;
+
+if [ -z "$changed_packages" ]
+then
+    echo "There are no relevant changes, so no new versions are released."
+else
+    # публикую все подпакеты
+    lerna publish from-git --yes  
+fi
