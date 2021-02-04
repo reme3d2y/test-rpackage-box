@@ -1,3 +1,21 @@
+# [6.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v5.0.0...v6.0.0) (2021-02-04)
+
+
+### Bug Fixes
+
+* **loader:** patch ([#13](https://github.com/reme3d2y/test-rpackage-box/issues/13)) ([a67f5ae](https://github.com/reme3d2y/test-rpackage-box/commit/a67f5aeb61fa1422b75f45e4637c4c76a421c9a8))
+
+
+### Features
+
+* **form-control:** minor changes ([#12](https://github.com/reme3d2y/test-rpackage-box/issues/12)) ([dbdb437](https://github.com/reme3d2y/test-rpackage-box/commit/dbdb43723d617514aa12584cd50c9af48499edc2))
+* **vars:** break ([#14](https://github.com/reme3d2y/test-rpackage-box/issues/14)) ([e9abe7a](https://github.com/reme3d2y/test-rpackage-box/commit/e9abe7a63d6a953b75f9da62a2a769b693e04bb2))
+
+
+### BREAKING CHANGES
+
+* **vars:** vars breaking changes
+
 # [5.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v4.0.0...v5.0.0) (2021-02-04)
 
 
