@@ -18,6 +18,7 @@ changed_packages=`lerna changed`;
 if [ -z "$changed_packages" ]
 then
     echo "There are no relevant changes, so no new versions are released."
+    exit 0
 else
     # публикую все подпакеты
     lerna publish from-git --yes  
