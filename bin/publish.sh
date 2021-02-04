@@ -4,7 +4,7 @@ set -e
 
 git remote set-url origin https://semantic-release-bot:$GITHUB_TOKEN@github.com/reme3d2y/test-rpackage-box.git
 git checkout master
-git pull origin master
+git pull origin master --rebase
 git fetch --tags
 
 if [ -z $(lerna changed) ]
