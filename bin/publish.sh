@@ -5,7 +5,7 @@ set -e
 
 git remote set-url origin https://reme3d2y:$GITHUB_TOKEN@github.com/reme3d2y/test-rpackage-box.git
 git checkout master
-git pull --rebase
+git pull origin master
 git fetch --tags
 
 changed_packages='$(lerna changed)'
