@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-amount@3.0.5...test-rpackage-box-amount@4.0.0) (2021-02-04)
+
+
+### Features
+
+* **amount:** changes ([4b68ac2](https://github.com/reme3d2y/test-rpackage-box/commit/4b68ac2fe1283dfe701eea66910e421322f10c6b))
+
+
+### BREAKING CHANGES
+
+* **amount:** changes changes changes changes
+
+
+
+
+
 ## [3.0.5](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-amount@3.0.4...test-rpackage-box-amount@3.0.5) (2021-02-04)
 
 **Note:** Version bump only for package test-rpackage-box-amount
