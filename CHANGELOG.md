@@ -1,3 +1,16 @@
+# [5.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v4.0.0...v5.0.0) (2021-02-04)
+
+
+### Features
+
+* **amount:** changes ([4b68ac2](https://github.com/reme3d2y/test-rpackage-box/commit/4b68ac2fe1283dfe701eea66910e421322f10c6b))
+* **button:** new feature ([cdc433d](https://github.com/reme3d2y/test-rpackage-box/commit/cdc433d33da41df24b83ca9af566c0585d11758b))
+
+
+### BREAKING CHANGES
+
+* **amount:** changes changes changes changes
+
 # [4.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v3.0.0...v4.0.0) (2021-02-04)
 
 
