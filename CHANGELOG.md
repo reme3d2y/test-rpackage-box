@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/reme3d2y/test-rpackage-box/compare/v2.0.2...v2.1.0) (2021-02-04)
+
+
+### Features
+
+* **themes:** add theme ([54f0360](https://github.com/reme3d2y/test-rpackage-box/commit/54f03603887519c87f113679d5df64385804a962))
+
 ## [2.0.2](https://github.com/reme3d2y/test-rpackage-box/compare/v2.0.1...v2.0.2) (2021-02-04)
 
 
