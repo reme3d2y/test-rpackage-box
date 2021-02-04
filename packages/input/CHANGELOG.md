@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-input@7.1.0...test-rpackage-box-input@8.0.0) (2021-02-04)
+
+
+### Features
+
+* **input:** major changes ([#8](https://github.com/reme3d2y/test-rpackage-box/issues/8)) ([560a6c8](https://github.com/reme3d2y/test-rpackage-box/commit/560a6c845737528fd5c1dc271b0f406a9e13c585))
+
+
+### BREAKING CHANGES
+
+* **input:** delete console.log!
+
+
+
+
+
 # [7.1.0](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-input@7.0.4...test-rpackage-box-input@7.1.0) (2021-02-04)
 
 
