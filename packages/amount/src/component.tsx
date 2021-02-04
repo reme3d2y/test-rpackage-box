@@ -23,7 +23,6 @@ export const Amount: React.FC<AmountProps> = ({
         minority,
         view,
     });
-
     return (
         <span className={cn(styles.component, className)} data-test-id={dataTestId}>
             {majorPart}
