@@ -18,5 +18,7 @@ git push origin master
 if [ -z "$changed_packages" ]; then
     echo "There are no relevant changes, so no new versions are released."
 else
+    echo "Publish subpackages:"
+    echo $changed_packages
     lerna publish from-git --yes
 fi
