@@ -12,7 +12,7 @@ changed_packages='$(lerna changed)'
 # поднимаю версию во всех подпакетах
 lerna version --conventional-commits --no-commit-hooks --yes
 
-# отправляю изменения на github
+git pull --rebase
 git push origin master
 
 if [ -z "$changed_packages" ]; then
