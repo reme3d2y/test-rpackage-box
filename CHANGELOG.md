@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v3.0.0...v4.0.0) (2021-02-04)
+
+
+* Feat/5 (#9) ([3440833](https://github.com/reme3d2y/test-rpackage-box/commit/3440833bc4a9aaf8bfbfbe095a7909f868bcb01f)), closes [#9](https://github.com/reme3d2y/test-rpackage-box/issues/9)
+
+
+### BREAKING CHANGES
+
+* the breaking changes description
+
+* fix(button): delete extra space
+
 # [3.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v2.2.0...v3.0.0) (2021-02-04)
 
 
