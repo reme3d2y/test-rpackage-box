@@ -1,3 +1,10 @@
+# [6.2.0](https://github.com/reme3d2y/test-rpackage-box/compare/v6.1.0...v6.2.0) (2021-02-16)
+
+
+### Features
+
+* **button:** remove console.log ([1e9dfbc](https://github.com/reme3d2y/test-rpackage-box/commit/1e9dfbc0c86e86d464e7cec26b4a7e3a43e484fd))
+
 # [6.1.0](https://github.com/reme3d2y/test-rpackage-box/compare/v6.0.0...v6.1.0) (2021-02-16)
 
 
