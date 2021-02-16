@@ -1,3 +1,20 @@
+# [7.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v6.3.0...v7.0.0) (2021-02-16)
+
+
+### Bug Fixes
+
+* **button:** patch ([#19](https://github.com/reme3d2y/test-rpackage-box/issues/19)) ([387a84b](https://github.com/reme3d2y/test-rpackage-box/commit/387a84b19c0af0e8c6292bcd92e297ec702e4a68))
+
+
+### Features
+
+* **form-control:** major ([#20](https://github.com/reme3d2y/test-rpackage-box/issues/20)) ([fc4b953](https://github.com/reme3d2y/test-rpackage-box/commit/fc4b953791543682348aae51b40b3e0cde449355))
+
+
+### BREAKING CHANGES
+
+* **form-control:** major
+
 # [6.3.0](https://github.com/reme3d2y/test-rpackage-box/compare/v6.2.0...v6.3.0) (2021-02-16)
 
 
