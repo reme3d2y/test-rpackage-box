@@ -119,8 +119,6 @@ export const Button = React.forwardRef<HTMLAnchorElement | HTMLButtonElement, Bu
             </React.Fragment>
         );
 
-        console.log('fix 2')
-
         if (href) {
             return (
                 <a
