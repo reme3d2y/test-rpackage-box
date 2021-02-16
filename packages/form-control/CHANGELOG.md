@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-form-control@6.1.0...test-rpackage-box-form-control@7.0.0) (2021-02-16)
+
+
+### Features
+
+* **form-control:** major ([#20](https://github.com/reme3d2y/test-rpackage-box/issues/20)) ([fc4b953](https://github.com/reme3d2y/test-rpackage-box/commit/fc4b953791543682348aae51b40b3e0cde449355))
+
+
+### BREAKING CHANGES
+
+* **form-control:** major
+
+
+
+
+
 # [6.1.0](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-form-control@6.0.3...test-rpackage-box-form-control@6.1.0) (2021-02-04)
 
 
