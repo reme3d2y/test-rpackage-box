@@ -1,3 +1,10 @@
+# [7.1.0](https://github.com/reme3d2y/test-rpackage-box/compare/v7.0.0...v7.1.0) (2021-02-16)
+
+
+### Features
+
+* **button:** feat ([faa8e49](https://github.com/reme3d2y/test-rpackage-box/commit/faa8e49f6d3ffb8f73ab34be9e1354f6d000e417))
+
 # [7.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v6.3.0...v7.0.0) (2021-02-16)
 
 

@@ -1,6 +1,6 @@
 {
     "name": "test-rpackage-box",
-    "version": "2.1.0",
+    "version": "7.1.0",
     "private": true,
     "workspaces": [
         "packages/*"
