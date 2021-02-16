@@ -18,23 +18,27 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install dependencies
+        run: yarn --pure-lockfile
+
       - name: Build app
-        run: yarn --pure-lockfile && yarn build
+        run: yarn build
         env:
           BUILD_CONCURRENCY: 5
 
-      - name: Set NPM Token Action
+      - name: Set NPM Token
         uses: filipstefansson/set-npm-token-action@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
-
+      
+      - name: Set Github credentials
       - uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with:
           name: 'semantic-release-bot'
           email: 'semantic-release-bot@gmail.com'
           token: '${{ secrets.PERMISSION_GITHUB_TOKEN }}'
 
-      - name: Publish separate packages
+      - name: Publish
         run: yarn pub
         env:
           GITHUB_TOKEN: ${{ secrets.PERMISSION_GITHUB_TOKEN }}
