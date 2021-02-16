@@ -34,14 +34,7 @@ jobs:
           email: 'semantic-release-bot@gmail.com'
           token: '${{ secrets.PERMISSION_GITHUB_TOKEN }}'
 
-      - name: Publish root package
-        run: |
-          yarn semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERMISSION_GITHUB_TOKEN }}
-
       - name: Publish separate packages
-        run: |
-          yarn pub
+        run: yarn pub
         env:
           GITHUB_TOKEN: ${{ secrets.PERMISSION_GITHUB_TOKEN }}
