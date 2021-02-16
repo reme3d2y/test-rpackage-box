@@ -83,6 +83,8 @@ export const Button = React.forwardRef<HTMLAnchorElement | HTMLButtonElement, Bu
     ) => {
         const buttonRef = useRef<HTMLElement>(null);
 
+        console.log('fix 1')
+
         const [focused] = useFocus(buttonRef, 'keyboard');
 
         const componentProps = {
@@ -135,8 +137,6 @@ export const Button = React.forwardRef<HTMLAnchorElement | HTMLButtonElement, Bu
         const { disabled, ...restButtonProps } = restProps as ButtonHTMLAttributes<
             HTMLButtonElement
         >;
-
-        console.log('fix 1')
 
         return (
             // eslint-disable-next-line react/button-has-type
