@@ -32,7 +32,7 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
       
       - name: Set Github credentials
-      - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+        uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with:
           name: 'semantic-release-bot'
           email: 'semantic-release-bot@gmail.com'
