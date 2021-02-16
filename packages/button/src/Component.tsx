@@ -83,11 +83,7 @@ export const Button = React.forwardRef<HTMLAnchorElement | HTMLButtonElement, Bu
     ) => {
         const buttonRef = useRef<HTMLElement>(null);
 
-        console.log('fix 1')
-
         const [focused] = useFocus(buttonRef, 'keyboard');
-
-        console.log('feat 4')
 
         const componentProps = {
             className: cn(
