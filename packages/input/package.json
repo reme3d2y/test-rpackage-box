@@ -1,6 +1,6 @@
 {
     "name": "test-rpackage-box-input",
-    "version": "9.0.5",
+    "version": "9.0.6",
     "description": "",
     "keywords": [],
     "license": "ISC",
@@ -20,7 +20,7 @@
         "@alfalab/icons-glyph": "^1.26.0",
         "classnames": "^2.2.6",
         "react-merge-refs": "^1.1.0",
-        "test-rpackage-box-button": "^3.3.0",
+        "test-rpackage-box-button": "^3.4.0",
         "test-rpackage-box-form-control": "^6.1.0"
     }
 }
