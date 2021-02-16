@@ -1,3 +1,11 @@
+# [6.1.0](https://github.com/reme3d2y/test-rpackage-box/compare/v6.0.0...v6.1.0) (2021-02-16)
+
+
+### Features
+
+* **button:** fix 1 ([#15](https://github.com/reme3d2y/test-rpackage-box/issues/15)) ([154e2a4](https://github.com/reme3d2y/test-rpackage-box/commit/154e2a420f4c5a03b257eb57b4b99c46b4918cc6))
+* **button:** fix 2 ([#16](https://github.com/reme3d2y/test-rpackage-box/issues/16)) ([96a995c](https://github.com/reme3d2y/test-rpackage-box/commit/96a995c04c7f526762676843d8a1bb7a757fd219))
+
 # [6.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v5.0.0...v6.0.0) (2021-02-04)
 
 
