@@ -5,6 +5,8 @@ set -e
 # Релизим рут-пакет с помощью semantic-release.
 semantic_output=$(yarn semantic-release)
 
+echo $semantic_output
+
 # Проеряем, что semantic-release зарелизил рут-пакет.
 # Пока не знаю, как это можно сделать по-нормальному.
 if [[ $semantic_output =~ "new version won't be published" ]]
