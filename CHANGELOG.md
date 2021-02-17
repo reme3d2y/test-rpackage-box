@@ -1,3 +1,16 @@
+# [8.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v7.1.0...v8.0.0) (2021-02-17)
+
+
+### Features
+
+* **button:** minor here ([95f0989](https://github.com/reme3d2y/test-rpackage-box/commit/95f09890468d0f5917c1c5e9594557777336fc9c))
+* **input:** input major please ([737b23c](https://github.com/reme3d2y/test-rpackage-box/commit/737b23c38acf8704f99b29847a7ce41e6df6691c))
+
+
+### BREAKING CHANGES
+
+* **input:** OMG BREAKING BREAK
+
 # [7.1.0](https://github.com/reme3d2y/test-rpackage-box/compare/v7.0.0...v7.1.0) (2021-02-16)
 
 
