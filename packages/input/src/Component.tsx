@@ -56,7 +56,7 @@ export type InputProps = Omit<
     success?: boolean;
 
     /**
-     * Текст подсказки
+     * Текст подсказки ага
      */
     hint?: string;
 
@@ -260,7 +260,6 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
             },
             [clearButtonVisible, focused, onClear, uncontrolled],
         );
-
 
         const renderRightAddons = () => {
             const addonsVisible = clearButtonVisible || rightAddons || error || success;
