@@ -9,7 +9,7 @@ import styles from './index.module.css';
 
 export type ComponentProps = {
     /**
-     * Тип кнопки
+     * Тип кнопки такой вот
      */
     view?: 'primary' | 'secondary' | 'outlined' | 'filled' | 'link' | 'ghost';
 
@@ -83,7 +83,7 @@ export const Button = React.forwardRef<HTMLAnchorElement | HTMLButtonElement, Bu
     ) => {
         const buttonRef = useRef<HTMLElement>(null);
 
-        console.log('button')
+        console.log('button');
 
         const [focused] = useFocus(buttonRef, 'keyboard');
 
