@@ -1,3 +1,19 @@
+# [9.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v8.0.0...v9.0.0) (2021-02-17)
+
+
+### Features
+
+* **button:** new featuers ([#23](https://github.com/reme3d2y/test-rpackage-box/issues/23)) ([ef5d143](https://github.com/reme3d2y/test-rpackage-box/commit/ef5d1436d3f5713742cb7685ec5921994d8104f4))
+
+
+### BREAKING CHANGES
+
+* **button:** major
+
+* feat(amount): fixes
+
+* feat(button): fixes
+
 # [8.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/v7.1.0...v8.0.0) (2021-02-17)
 
 
