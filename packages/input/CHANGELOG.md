@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.0.0](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-input@9.0.8...test-rpackage-box-input@10.0.0) (2021-02-17)
+
+
+### Features
+
+* **input:** input major please ([737b23c](https://github.com/reme3d2y/test-rpackage-box/commit/737b23c38acf8704f99b29847a7ce41e6df6691c))
+
+
+### BREAKING CHANGES
+
+* **input:** OMG BREAKING BREAK
+
+
+
+
+
 ## [9.0.8](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-input@9.0.7...test-rpackage-box-input@9.0.8) (2021-02-16)
 
 **Note:** Version bump only for package test-rpackage-box-input

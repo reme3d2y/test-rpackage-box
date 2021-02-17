@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.6.0](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-button@3.5.0...test-rpackage-box-button@3.6.0) (2021-02-17)
+
+
+### Features
+
+* **button:** minor here ([95f0989](https://github.com/reme3d2y/test-rpackage-box/commit/95f09890468d0f5917c1c5e9594557777336fc9c))
+
+
+
+
+
 # [3.5.0](https://github.com/reme3d2y/test-rpackage-box/compare/test-rpackage-box-button@3.4.1...test-rpackage-box-button@3.5.0) (2021-02-16)
 
 
